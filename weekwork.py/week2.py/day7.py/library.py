@@ -24,7 +24,7 @@ class Library:
     def loanbook (self):
         input("Provide details of book title and author,")
     def bookreturn (self):
-        input("Provide "+ author+"and"+title")
+        input("Provide " + author + "and " + title)
 
 class Book:
     def __init__(self, title, author, availability):
